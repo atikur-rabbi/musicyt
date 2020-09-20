@@ -7,8 +7,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 
-app.get('/', function (req, res) {
-  res.send('MAIN');
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get('/audio/:videoId', function (req, res) {
