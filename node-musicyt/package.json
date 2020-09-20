@@ -1,0 +1,19 @@
+{
+  "name": "node-music",
+  "version": "0.0.1",
+  "description": "node music from youtube",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "google-auth-library": "^6.0.6",
+    "googleapis": "^59.0.0",
+    "nodemon": "^2.0.4",
+    "ytdl-core": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "soulsam",
+  "license": "MIT"
+}
